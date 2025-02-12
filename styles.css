@@ -40,6 +40,31 @@ main {
     flex-grow: 1;
 }
 
+/* style for separating posts */
+article {
+    padding: 20px 0;
+    border-bottom: 1px solid #444; /* dark separator between posts */
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #444;
+    margin: 20px 0;
+}
+
+/* center images */
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 /* responsiveness */
 @media screen and (max-width: 768px) {
     body {

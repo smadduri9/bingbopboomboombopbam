@@ -64,6 +64,35 @@ hr {
     height: auto;
     border-radius: 8px;
 }
+.post-links {
+    background: #222;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.post-links h3 {
+    color: #fff;
+    margin: 0 0 10px;
+}
+
+.post-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.post-links ul li {
+    margin-bottom: 5px;
+}
+
+.post-links ul li a {
+    color: #4da6ff;
+    text-decoration: none;
+}
+
+.post-links ul li a:hover {
+    text-decoration: underline;
+}
 
 /* responsiveness */
 @media screen and (max-width: 768px) {
